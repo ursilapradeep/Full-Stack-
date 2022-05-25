@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
+ .container {
+     height: 100vh;
+     text-align: center;
+     background: radial-gradient(ellipse at top, #9BA3EB, #FAF0D7, #B8F1B0, transparent), radial-gradient(ellipse at top, #570A57, #F4BFBF, #000f90, transparent);
+     -webKit-animation: backgroundimage 9s ease-out 1s infinite;
+     background-size: 400%,400%;
+ }
+ @-webkit-keyframes backgroundimage {
+     0%{background-position:0 50%}
+     50%{background-position:50% 100%}
+     100%{background-position:0 50%}
+
+}
